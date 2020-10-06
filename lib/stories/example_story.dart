@@ -1,12 +1,12 @@
-import 'package:bubble/widgets/tes.dart';
+import 'package:bubble/widgets/example_widget.dart';
 import 'package:flutter/widgets.dart';
 import 'package:storyboard/storyboard.dart';
 
-class TestStory extends Story {
+class ExampleStory extends Story {
   @override
   List<Widget> get storyContent {
     return [
-      Tes(),
+      ExampleWidget(),
     ];
   }
 

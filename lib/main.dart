@@ -1,4 +1,4 @@
-import 'package:bubble/stories/tesStory.dart';
+import 'package:bubble/stories/example_story.dart';
 import 'package:flutter/material.dart';
 import 'package:storyboard/storyboard.dart';
 
@@ -9,8 +9,10 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Storyboard([TestStory()]),
+    return StoryboardApp(
+      [
+        ExampleStory(),
+      ],
     );
   }
 }
